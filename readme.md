@@ -17,7 +17,7 @@ El directorio contiene carpetas independientes y con una funcionalidad, estan ba
   - **css**: aqui va nuestros archivos css, si estas usando sass, el archivo generado se guarda en esta carpeta.
   - **sass**: aqui van nuestros archivos sass, en esta carpeta se usa una arquitectura llamada 7+1, para tener modularidad, organizacion ,etc de nuestros estilos.
 
-- **index.html** : nuestro archivo html, pueden agregar mas archivos html.
+- **html-source** : aqui van nuestros archios pug.
 
 - **gulpfile.js** : archivo gulp para la automatización de tareas (sass).
 
@@ -35,8 +35,15 @@ El directorio contiene carpetas independientes y con una funcionalidad, estan ba
   $ bower install
   $ npm install
   ```
+
 - luego ejecuta
 
   ```sh
   $ gulp
   ```
+
+- para limpiar o borrar nuestro dist, ejectura
+
+```sh
+  $ gulp clean
+```
