@@ -1,6 +1,6 @@
 # Scaffolding Intermedio
 
-Este es un Directorio para projectos basicos, con una arquitectura basica para que el desarrollador se enfoque en el desarrollo.
+Este es un Directorio para projectos intermedios, con una arquitectura más organizada y usando pug para la reutilizacion de componentes,facilitando el desarrollo del proyecto.
 
 ## Contenido
 
